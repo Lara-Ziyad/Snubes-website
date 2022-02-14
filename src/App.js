@@ -10,25 +10,20 @@ import Logos from './component/Logos';
 import Footer from './component/layout/Footer';
 import { Provider } from 'react-redux';
 import store from './store';
-// import FormInfo from './component/FormInfo';
+
 
 function App() {
   return (
     <Provider store={store}>
-       <div className="App">
-          <Navbar /> 
-         < FormSection />
-        {/* <FormInfo />  */}
+     <div className="App">
+        <Navbar /> 
+        < FormSection />
         <ServiceSection /> 
         <WhySection />
         <SliderSection />
         <Logos />
-      
-
         <Footer />
-    
-       
-         </div>  
+      </div>  
     </Provider>
   );
 }

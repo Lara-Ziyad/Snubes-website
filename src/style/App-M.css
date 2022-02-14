@@ -11,9 +11,9 @@ h5{
   font-size: 1rem;
   font-weight: bold;
 }
-    p{
-      font-size: 1rem;
-    }
+p{
+  font-size: 1rem;
+}
 nav{
   padding-bottom: .8rem; 
 }
@@ -22,16 +22,14 @@ ul{
   height: 51vh;
   border-radius: 0px 0px 0px 0px;
 }
-
-    img.Snubes_logo {
-      position: relative;
-      right: 5.4rem;
-      width: 10rem
-    }
-    .checkbtn{
-    
-      margin-right: .3rem;
-    }
+img.Snubes_logo {
+  position: relative;
+  right: 5.4rem;
+  width: 10rem
+}
+.checkbtn{ 
+  margin-right: .3rem;
+}
     /*---------------------------------------
      Form section          
  ---------------------------------------------------*/
@@ -39,12 +37,9 @@ ul{
    margin-top: -1rem;
    height:  36.063rem;
    margin-bottom: 5rem;
-   padding: 0rem;
-   
+   padding: 0rem; 
  }
  .wrapper > div:nth-child(even){
-   /* margin-bottom: 10rem; */
-
    background-size:auto 18rem;
    background-position:right center;
    height:18rem ;
@@ -52,26 +47,21 @@ ul{
    
  }
 .Welcome__title{
- text-align: center;
-   position:absolute;
-   bottom:14rem;
+  text-align: center;
+  position:absolute;
+  bottom:14rem;
   left:  -.5rem;
   margin: 0rem;
   width: 20rem;
-  
   line-height: 1.56;
  }
-
-
  .Welcome__div{
-position: relative;
-   top:5.5rem;
-   left: -1rem;
-  
- 
- width:320px ;
- display: grid;
- grid-template-columns: 1fr  1fr ;
+  position: relative;
+  top:5.5rem;
+  left: -1rem;
+  width:320px ;
+  display: grid;
+  grid-template-columns: 1fr  1fr ;
 }
 
  /*---------------------------------------
@@ -86,7 +76,6 @@ position: relative;
  }
  .form-basic input{
    width: 87.5%;
-  
  }
  .form-row {
    display: grid;
@@ -96,12 +85,9 @@ position: relative;
  .form-basic .form-row > label{
    justify-self: left;
    margin-bottom: -.7rem;
-  
  }
  .form-title-row p{
-
-   display: none;
-    
+   display: none;  
  }
  .form-title-row h3{
   text-align: left;
@@ -109,29 +95,23 @@ position: relative;
   margin-left: .1rem;
   margin-right: 1rem;
   margin-top: 2rem;
-
  }
-
  .form-basic .form-title-row{
    text-align: center;
  }
  .form-basic button{
    margin-left: -2rem;
    width: 16.25rem;
-
  }
- 
-
     /*---------------------------------------
      Service section          
  ---------------------------------------------------*/
-   .service__container{
-     background-color: var(--white);
-     flex-direction: column; 
-     align-items: flex-start; 
+  .service__container{
+    background-color: var(--white);
+    flex-direction: column; 
+    align-items: flex-start; 
     height:30.75rem;
-     margin-top: 27rem;
-  
+    margin-top: 27rem;
   }
   
    .servicesItem {
@@ -140,34 +120,28 @@ position: relative;
      justify-content: flex-start;
      max-width: 320px;
      margin-bottom: 2rem;
-
    }
    .servicesItem__text{
-  
-      align-items: flex-start;
+     align-items: flex-start;
      justify-content: flex-start; 
      padding-left: -3rem;
-  
    } 
    img.servicesItem__img {
      width: 5rem;
      height: 5rem;
      margin-top: 1rem;
-   margin-left: .983rem;
+     margin-left: .983rem;
    }
-  
    .servicesItem__title{
      text-align: left;
      font-size: 1rem;
      margin-left: .9rem;
      margin-top: .5rem;
-  
-     
    }
    .servicesItem__body{
      width: 12.18rem;
-   height: 4.5rem;
-   font-size: 1rem;
+     height: 4.5rem;
+     font-size: 1rem;
      text-align: left;
      padding-left: 0rem;
      margin-left: .7rem;  
@@ -176,8 +150,7 @@ position: relative;
      Why section          
  ---------------------------------------------------*/
  .why__background{
-  height: 38rem;
-
+  height: 38rem;  
 }
  .why__container{
   width: 18rem;
@@ -194,13 +167,12 @@ position: relative;
    /*---------------------------------------
     Slider section          
  ---------------------------------------------------*/
-
  .slider{
   height: 39rem;
   display: grid;
-grid-template-columns: 1fr ;
-width: 20rem;
-position: relative;
+  grid-template-columns: 1fr ;
+  width: 20rem;
+  position: relative;
 }
 
 .slider h6,span{
@@ -210,8 +182,7 @@ position: relative;
 .left-arrow{
   position: absolute;
   bottom:4.5rem;
-  left: 1rem;
- 
+  left: 1rem;  
 }
 .right-arrow{
   position: absolute;
@@ -225,9 +196,8 @@ position: relative;
   width: 20rem;
   display: flex;
   flex-wrap: wrap;
-height: 14rem;
-padding: 0;
-
+  height: 14rem;
+  padding: 0;
  }
  .logo__img{
   width: 7rem;
@@ -236,7 +206,6 @@ padding: 0;
  /*---------------------------------------
      Footer section          
   -----------------------------------------*/
-
   .footer__grid{
     height: 23.063rem;
     padding: 0rem;
@@ -249,14 +218,12 @@ padding: 0;
     justify-content: center;
     padding:0rem;
     margin-top: 11rem;  
-}
-a.footer__item{
-
-  line-height:2rem
-}
-.footer__grid img{
-display: none;
-
-}
+   }
+   a.footer__item{
+     line-height:2rem
+   }
+   .footer__grid img{
+   display: none;
+   }
 
   }

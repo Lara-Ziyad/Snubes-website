@@ -3,8 +3,7 @@ import { getCountries, getCountryCallingCode } from 'react-phone-number-input/in
 import en from 'react-phone-number-input/locale/en.json';
 
 
-/////////A custom inputs from the react-phone-number-input package for  select element///////////////
-
+//A custom inputs from the react-phone-number-input package for  select element
 const CountrySelect = ({ value, onChange, labels, ...rest }) => (
     <select {...rest} value={value} onChange={(event) => onChange(event.target.value || undefined)}>
       <option value="">{labels.ZZ}</option>
@@ -17,12 +16,11 @@ const CountrySelect = ({ value, onChange, labels, ...rest }) => (
     </select>);
 
 function CountryCode(props) {
-    //////////////////////////////////// Fetch Country Code//////////////////////////////////////
+    //Fetch Country Code
 
     useEffect(() => {   
         // eslint-disable-next-line react-hooks/exhaustive-deps
-     
-        navigator.geolocation.getCurrentPosition
+              navigator.geolocation.getCurrentPosition
             (handleNavigator,
                 () => console.warn('permission was rejected'
             ));
@@ -31,16 +29,12 @@ function CountryCode(props) {
 
     async function handleNavigator(pos) { 
         const { latitude, longitude } = pos.coords;
-        // lookupCountry(latitude, longitude );
-        // console.log(latitude,longitude);
         const userCountryCode = await lookupCountry( latitude, longitude );
         setCountry(userCountryCode);
-        // setCountry(getCountry);
     }
     
     async function lookupCountry( lat, long) {
         const URL = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=AIzaSyCTDc0WXlTqOQJoGuPSRyPMlfkjan-zhQ8`;
-        // console.log(URL );
         const locationData = await fetch(URL).then((res) => res.json());
         const [{ address_components }] = locationData.results.filter(({ types }) => types.includes('country'));
         const [{ short_name}] = address_components;
@@ -65,4 +59,3 @@ function CountryCode(props) {
 
 export default CountryCode;
 
-// alert__${type}`

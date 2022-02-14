@@ -4,10 +4,8 @@
     /*---------------------------------------
       Navbar             
   -----------------------------------------*/
-  
   body{
     overflow-x: hidden;
-
   }
   nav{
     width: 100%;
@@ -28,7 +26,6 @@
   }
   .checkbtn{
     display: block;
-    /* margin-right: 400px;  */
   }
   ul{
     position: fixed;
@@ -36,7 +33,6 @@
     height: 50vh;
     background: var(--form-focus);
     top: 3.125rem;
-    /* right:-100%; */
     text-align: center;
     transition: all .5s;
    z-index: 1;
@@ -46,7 +42,6 @@
     border-radius: 10px 0px 0px 10px;
   }
   nav ul li{
-  
     display: block;
     margin: 0px 0;
     line-height: 30px;
@@ -56,27 +51,20 @@
     font-size: 20px;
   }
   a:hover,a.active{
-
     color: #4c565e;
   }
-
-
-     /*---------------------------------------
+  /*---------------------------------------
       Form          
   -----------------------------------------*/
 .contanir{
   padding: 0;
   margin-bottom: -1rem;
 }
-
   .wrapper{
-   
     display: grid;
     grid-template-columns: 1fr ;
     height:  41rem;;
     background-color: var(--body-bg);
-    
-   
   }
   .form-basic{
     justify-self: center;
@@ -84,7 +72,6 @@
     height: 26rem;
     background-color: transparent;
     margin-bottom: 3rem;
-    /* margin-bottom: 4rem; */
   }
   .wrapper > div:nth-child(even){
     margin-bottom: 10rem;
@@ -97,101 +84,79 @@
     background-position: cover;
     height:12rem ;
     position: relative;
-    border-bottom: .625rem solid  var(--body-bg);
-    
+    border-bottom: .625rem solid  var(--body-bg);  
   }
- 
   .Welcome__title{
     position:absolute;
     bottom:7rem;
     left: 6rem;
-
   }
   .Welcome__div{
     position:absolute;
     bottom:1.1rem;
     left: 5rem;
-   
   }
   .Welcome__item{
     display: flex;
-  
   }
   .Welcome__item h1{
     height: 2rem;
-    margin-bottom: .8rem;
-  
+    margin-bottom: .8rem;  
   }
-     /*---------------------------------------
+  /*---------------------------------------
       Services            
   -----------------------------------------*/
 .service__container{
     height: 18.438rem;
-margin-top: 11.75rem;
-    width: 48rem;}
-
+   margin-top: 11.75rem;
+    width: 48rem;
+  }
   .servicesItem {
     width: 13.75rem;
-  
 }
 .servicesItem__text{
     height:11rem ;
-
-
 }
-  .servicesItem__title {
-      width: 13.75rem;
-    }
-    .servicesItem__body {
-        width: 13.75rem;
-        margin:0.313rem
-    }
-
-  /*---------------------------------------
-     Why        
-  -----------------------------------------*/
+.servicesItem__title {
+    width: 13.75rem;
+}
+.servicesItem__body {
+    width: 13.75rem;
+    margin:0.313rem
+ }
+ /*---------------------------------------
+    Why        
+ -----------------------------------------*/
  .why__background{
   background-image: url(../img/whyS.png) ;
-    width: 48rem;
+   width: 48rem;
   height: 38.5rem;
-   background-size: cover; 
-  /* margin: 0.625rem 0 0.625rem; */
-  /* object-fit: cover; */
+  background-size: cover; 
   background-size: 100%;
-background-position: 80% 50%; 
-
+  background-position: 80% 50%; 
  }
 .why__container{
     width: 30rem;
     left: 4.5rem;
 }
-
  /*---------------------------------------
       Slider section          
   -----------------------------------------*/
-
   .slider{
-    height: 27rem;
-    display: grid;
-grid-template-columns: 1fr 7fr 1fr;
-width: 48rem;
+   height: 27rem;
+   display: grid;
+   grid-template-columns: 1fr 7fr 1fr;
+   width: 48rem;
   }
   .left-arrow{
-  
     margin-right:0rem;
-   
   }
   .right-arrow{
- 
-
     margin-left:0rem;
-
   }
-
    /*---------------------------------------
       Logo section          
   -----------------------------------------*/
-
   .logo__container{
     width: 48rem;
     padding-bottom: 2rem ;
@@ -206,11 +171,9 @@ width: 48rem;
     width: 70%;
     height: 70%;
   }
-
    /*---------------------------------------
      Footer section          
   -----------------------------------------*/
-
     .footer__grid{
         width: 48rem;
         height: 13.625rem;

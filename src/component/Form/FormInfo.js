@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 
 function FormInfo({ customer: { customers } }) {
   
-
     useEffect(() => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [customers])
@@ -59,8 +58,6 @@ FormInfo.propTypes = {
 }
 const mapStateToProps = state => ({
     customer: state.form
-
-
 })
 
 

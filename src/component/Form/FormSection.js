@@ -10,35 +10,22 @@ function FormSection({ customer: { customers } }) {
     
 
 
-    useEffect(() => {
-        
+    useEffect(() => {   
         // eslint-disable-next-line react-hooks/exhaustive-deps
-        }, [customers])
-
-
-
-
+    }, [customers])
+    
     return (
    
           <div className='contanir'>      
                 <div className='wrapper'> 
-              
                     <form className="form-basic" method="post" action="#">
-           
-
-           
-            {(customers.length != 0) &&
+                      {(customers.length != 0) &&
                             <FormInfo />
                         }
-                    
-            {(customers.length == 0) &&
+                     {(customers.length == 0) &&
                             <FormInput/>
                         }      
-                    
-                    
                     </form>
-                   
-                   
              <div  >
                             <h5 className="Welcome__title">Welcome to Europe’s largest call center database </h5>
                             <div  className="Welcome__div">
@@ -75,8 +62,6 @@ customer:PropTypes.object.isRequired,
 
 const mapStateToProps = state => ({
     customer: state.form
-  
-
 })
 
 export default connect(mapStateToProps,{}) (FormSection);

@@ -6,9 +6,7 @@ import { addCustomer}
 import CountryCode from './CountryCode';
 
 
-function FormInput({ country: { getCountry }, addCustomer,country
-    // lookupCountry
-}) {
+function FormInput({ country: { getCountry }, addCustomer,country}) {
  
     const [formData, setFormData] = useState({
         company: '',
