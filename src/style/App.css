@@ -555,7 +555,6 @@ grid-template-columns: 1fr 1.5fr 1fr;
   .arrow{
     align-self: center;
     font-size: 2rem;
-  
     border-radius: 50%;
     padding: .15rem;
   }
