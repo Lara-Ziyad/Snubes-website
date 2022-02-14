@@ -1,0 +1,10 @@
+export const ADD_CUSTOMER = 'ADD_CUSTOMER';
+export const GET_SERVICES  = 'GET_SERVICES ';
+export const SET_ALERT = 'SET_ALERT ';
+export const  REMOVE_ALERT = ' REMOVE_ALERT';
+export const DATA_ERROR = 'DATA_ERROR  ';
+export const GET_COUNTRY = 'DATA_ERROR  ';
+export const GET_RESONES  = 'GET_RESONES  ';
+export const GET_LOGOS  = 'GET_LOGOS  ';
+export const GET_FOOTER  = 'GET_FOOTER  ';
+export const GET_SLIDER  = 'GET_SLIDER  ';

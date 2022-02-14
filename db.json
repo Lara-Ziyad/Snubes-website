@@ -1,0 +1,109 @@
+{
+  "services": [
+  
+    {
+      "img": "images/service/s-1.png",
+      "title": "Sign up for free",
+      "body": "Signing up and setting up your project takes less than 5 minutes"
+    },
+    {
+      "img": "images/service/s-2.png",
+      "title": "Source samrter ",
+      "body": "Our data-based AI and our experts will help you find exactly what you are looking for"
+    },
+    {
+      "img": "images/service/s-3.png",
+      "title": "Receive offers",
+      "body": "With our insights you always receive high-quality proposals at the best price"
+    }
+  ],
+
+
+  "resones": [
+  
+    {
+     
+      "title": "Trusted Know-How",
+      "body": "We have more than 20 years of experience and continuously check call centers for their quality and capabilities. Customers like Allianz trust Snubes industry knowledge."
+    },
+    {
+     
+      "title": "Time and cost savings",
+      "body": "With Snubes you can easily compare prices, quality and availability, and find more potential suppliers. Reach your goal faster and save resources."
+    },
+    {
+     
+      "title": "Satisfaction guaranteed",
+      "body": "We offer a validated data-based approach to procurement, rather than awarding contracts only based on the lowest price, an existing relationship or gut feeling."
+    }
+  ],
+
+  "slides": [
+  
+    {
+      "logo": "images/customers/c-5.png",
+      "signeture": "Jan Brenneke, ",
+      "name":"VP Operations",
+      "body": "“Finding a suitable outsourcing service provider through Snubes was very easy and our personal consultant helped us every step of the way. After a short time we had good offers on the table. An on-site visit confirmed the positive impression and we have now found a matching partner. Thank you for your great support, which has helped us a lot in the selection process.”"
+    },
+    {
+      "logo": "images/customers/c-2.png",
+      "signeture": "lorem2 mskil",
+      "name":"HR Orgnix",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic quod minus atque repudiandae explicabo, impedit eum blanditiis! Magnam adipisci eligendi excepturi."
+    },
+    {
+      "logo": "images/customers/c-1.png",
+      "signeture": "Adipisicing elit",
+      "name":"Ab quibusdam ",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis soluta reprehenderit incidunt aperiam quidem nesciunt velit! Ab quibusdam necessitatibus beatae saepe dignissimos, magnam voluptatibus assumenda molestias sapiente eaque excepturi facere repudiandae voluptas consequuntur totam nostrum animi rem unde! Commodi nesciunt amet ex laudantium?"
+    }
+  ],
+
+
+
+
+  "customersLogo":
+  [
+  {
+    "img": "images/customers/c-1.png"
+    
+  },
+  {
+    "img": "images/customers/c-2.png"
+ 
+  },
+  {
+    "img": "images/customers/c-3.png"
+   
+  },
+  {
+    "img": "images/customers/c-4.png"
+   
+  },  {
+    "img": "images/customers/c-5.png"
+   
+  }
+],
+
+
+"footer":
+[
+{
+  "img": "images/f-1.png"
+  
+},
+{
+  "info":[[ "About us"],["Imprint"],["support@snubes"],["Become a Partner"],["Term & Condition"],
+  [ "+49 (0) 305 5645327"],[ "FAQ"],["Praivecy Police"],["Fa","Tw","LI"]
+    
+]
+
+}
+]
+
+
+
+
+
+}
