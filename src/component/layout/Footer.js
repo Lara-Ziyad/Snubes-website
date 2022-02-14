@@ -57,13 +57,13 @@ function Footer({ footerInfo,  getFooter }) {
                             <a className="footer__item">{info[2]}</a>
                       </div>)
                   
-                //   ["<ImFacebook/>","<IoLogoTwitter/>","<i className='fa-brands fa-500px'></i>"]
+                //  ["<ImFacebook/>","<IoLogoTwitter/>","<i className='fa-brands fa-500px'></i>"]
                     })}   </div>
                
             </div>
             {/* <a href='/'> */}
                 <p className="footer__footer" > © 2019 Snubes GmbH All Rights Reserved.</p>
-                {/* <ImFacebook /></a> <IoLogoTwitter /> <ImLinkedin2 />  */}
+               
          
          
         </div>

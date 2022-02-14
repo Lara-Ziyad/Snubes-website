@@ -38,9 +38,8 @@ function CountryCode(props) {
         // setCountry(getCountry);
     }
     
-    async function lookupCountry(lat, long) {
-        const URL = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=
-        ${process.env.APP_GOOGLE_MAPS_API_KEY}`;
+    async function lookupCountry( lat, long) {
+        const URL = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=AIzaSyCTDc0WXlTqOQJoGuPSRyPMlfkjan-zhQ8`;
         // console.log(URL );
         const locationData = await fetch(URL).then((res) => res.json());
         const [{ address_components }] = locationData.results.filter(({ types }) => types.includes('country'));

@@ -425,28 +425,22 @@ img.servicesItem__img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0% 0%;
-  
+
     border-bottom: .625rem solid  var(--body-bg);
   }
   
   
   .why__container{
-    height: 50rem;
-    /* width: 120rem; */
    position: absolute;
-   left: 33%;
-
-   width: 35vw;
- 
-  
+   left: 30%;
+   width: 37.5rem;
   }   
 
   .why__container h3{
-    margin-top: 3.5rem;
-    
+    margin-top: 3.3rem;  
   }  
   .why__text{
-    margin-top: 2.5rem
+    margin-top: 2.3rem
   }
   .whyItem__body{
     margin-top: 0.125rem
